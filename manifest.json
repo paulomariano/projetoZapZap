@@ -2,7 +2,7 @@
   "name": "Zapear",
   "short_name": "Zapear",
   "lang": "pt-BR",
-  "start_url": "/",
+  "start_url": "/zapear/",
   "display": "browser",
   "icons": [
     {
