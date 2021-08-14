@@ -3,7 +3,7 @@
   "short_name": "Zapear",
   "lang": "pt-BR",
   "start_url": "/",
-  "display": "standalone",
+  "display": "browser",
   "icons": [
     {
       "src": "/img/whatsapp.png",
