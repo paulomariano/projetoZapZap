@@ -4,7 +4,7 @@
   "icons":[
     {
       "src":"/img/whatsapp.svg",
-      "type":"image/png",
+      "type":"image/svg",
       "sizes":"48x48"
     },
     {
