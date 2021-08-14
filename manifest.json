@@ -3,14 +3,19 @@
   "name":"Web App para iniciar uma conversa no whatsapp somente com o número do telefone",
   "icons":[
     {
-      "src":"/img/whatsapp.svg",
-      "type":"image/svg",
+      "src":"/img/whatsapp.png",
+      "type":"image/png",
       "sizes":"48x48"
     },
     {
-      "src":"/img/whatsapp.svg",
-      "type":"image/svg",
+      "src":"/img/whatsapp.png",
+      "type":"image/png",
       "sizes":"96x96"
+    },
+    {
+      "src":"/img/whatsapp.png",
+      "type":"image/png",
+      "sizes":"192x192"
     }
   ],
   "start_url":"https://paulomariano.github.io/zapear/?pwa_launcher=true"
