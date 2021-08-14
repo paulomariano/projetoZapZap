@@ -1,6 +1,6 @@
 // Desenvolvido por Paulo Mariano
 $(document).ready(function(){
-  $('#phone').mask('(00) 00000-00009')
+  $('#phone').mask('(00) 00000-0000')
 
   $('#form-zapear').submit(function(event){
     event.preventDefault()
