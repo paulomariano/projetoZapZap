@@ -1,5 +1,7 @@
 // Desenvolvido por Paulo Mariano
 $(document).ready(function(){
+  $('#phone').mask('(00) 00000-00009')
+
   $('#form-zapear').submit(function(event){
     event.preventDefault()
     var numero = $('#phone').val()
