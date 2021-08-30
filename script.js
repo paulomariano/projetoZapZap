@@ -12,8 +12,10 @@ $(document).ready(function(){
   $('.form-check-input').click(function(){
     if($('.form-check-input:checked').val() == "telefone"){
       $('#phone').attr("pattern","\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4}")
+      $('#phone').mask('(00) 0000-0000')
     } else {
       $('#phone').attr("pattern","\([0-9]{2}\)[\s][0-9]{5}-[0-9]{4}")
+      $('#phone').mask('(00) 00000-0000')
     }
   })
   
