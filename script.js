@@ -1,4 +1,6 @@
 // Desenvolvido por Paulo Mariano
+// dentro de string \ significa entrada de unicode, para utilizar o simbolo
+// \ unicode equivalente \u005c
 $(document).ready(function(){
   $('#phone').mask('(00) 00000-0000')
 
@@ -11,10 +13,10 @@ $(document).ready(function(){
   })
   $('.form-check-input').click(function(){
     if($('.form-check-input:checked').val() == "telefone"){
-      $('#phone').attr("pattern","\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4}")
+      $('#phone').attr("pattern","\u005c([0-9]{2}\u005c)[\u005cs][0-9]{4}-[0-9]{4}")
       $('#phone').mask('(00) 0000-0000')
     } else {
-      $('#phone').attr("pattern","\([0-9]{2}\)[\s][0-9]{5}-[0-9]{4}")
+      $('#phone').attr("pattern","\u005c([0-9]{2}\u005c)[\u005cs][0-9]{5}-[0-9]{4}")
       $('#phone').mask('(00) 00000-0000')
     }
   })
