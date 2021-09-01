@@ -15,9 +15,11 @@ $(document).ready(function(){
     if($('.form-check-input:checked').val() == "telefone"){
       $('#phone').attr("pattern","\u005c([0-9]{2}\u005c)[\u005cs][0-9]{4}-[0-9]{4}")
       $('#phone').mask('(00) 0000-0000')
+      $('#phone').val('')
     } else {
       $('#phone').attr("pattern","\u005c([0-9]{2}\u005c)[\u005cs][0-9]{5}-[0-9]{4}")
       $('#phone').mask('(00) 00000-0000')
+      $('#phone').val('')
     }
   })
   
