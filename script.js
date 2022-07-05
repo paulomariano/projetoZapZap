@@ -8,7 +8,7 @@ $(document).ready(function(){
     event.preventDefault()
     const numero = $('#phone').val()
     if(numero != "" || numero != null){
-      window.location.href = `https://api.whatsapp.com/send?phone=+55${numero}`
+      window.location.href = `https://wa.me/55${numero}`
     } 
   })
 
