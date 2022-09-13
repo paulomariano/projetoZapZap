@@ -19,10 +19,10 @@ $(document).ready(function(){
   $('.form-check-input').click(function(){
     if($('.form-check-input:checked').val() == "telefone"){
       $('#phone').mask('(00)0000-0000')
-      $('#phone').attr("pattern","\([0-9]{2}\)[0-9]{4}-[0-9]{4}")
+      $('#phone').attr("pattern","\u005c([0-9]{2}\u005c)[0-9]{4}-[0-9]{4}")
     } else {
       $('#phone').mask('(00)00000-0000')
-      $('#phone').attr("pattern","\([0-9]{2}\)[0-9]{5}-[0-9]{4}")
+      $('#phone').attr("pattern","\u005c([0-9]{2}\u005c)[0-9]{5}-[0-9]{4}")
     }
     $('#phone').val('')
   })
